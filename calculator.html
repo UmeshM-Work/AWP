@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculator.js"></script>
+
+    <style>
+        body {
+            background-image: url(https://picsum.photos/id/307/5000/5000);
+            background-size: cover;
+        }
+        
+        .parent {
+            background-color: rgb(88, 56, 56);
+            height: 90vh;
+            width: 60vh;
+            margin-left: 80vh;
+            border: grey;
+            border: groove;
+            box-shadow: 0px 0px 5px 5px whitesmoke;
+            border-radius: 3px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            opacity: 0.8;
+        }
+        
+        .inputnum {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #input1 {
+            background-color: white;
+            font-size: 15px;
+            font-weight: 1000;
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        #input2 {
+            background-color: white;
+            font-size: 15px;
+            font-weight: 1000;
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        h3 {
+            background-color: ghostwhite;
+            color: brown;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        
+        .p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        #plus {
+            padding: 10px;
+            font-size: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px 1px black;
+        }
+        
+        #minus {
+            padding: 10px;
+            font-size: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px 1px black;
+        }
+        
+        #mult {
+            padding: 10px;
+            font-size: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px 1px black;
+        }
+        
+        #divi {
+            padding: 10px;
+            font-size: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px 1px black;
+        }
+        
+        .m {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .mul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .d {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .outputnum {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        
+        #output1 {
+            background-color: white;
+            font-size: 20px;
+            text-align: center;
+            font-weight: 1000;
+            margin-left: 70px;
+            margin-right: 70px;
+            border-radius: 5px;
+        }
+        
+        .btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .btnp {
+            padding: 15px;
+            box-shadow: 0px 0px 2px 2px brown;
+            ;
+            border-radius: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        
+         ::placeholder {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: grey;
+            opacity: 0.6;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <div class="inputnum">
+            <h3>
+                <center>CALCULATOR</center>
+            </h3>
+            <input id="input1" type="number" placeholder="Enter first number ">
+            <input id="input2" type="number" placeholder="Enter second number ">
+        </div>
+        <div class="p">
+            <input onclick="cal()" id="plus" value="+" type="button">
+        </div>
+
+        <div class="m">
+            <input onclick="cal()" id="minus" value="-" type="button">
+        </div>
+
+        <div class="mul">
+            <input id="mult" value="*" type="button">
+        </div>
+
+        <div class="d"><input id="divi" value="/" type="button">
+        </div>
+
+        <div class="btn" onclick="output()">
+            <input class="btnp" type="submit" value="submit">
+        </div>
+        <div class="outputnum"><input id="output1" type="number" placeholder="Answer"></div>
+
+    </div>
+</body>
+
+</html>
