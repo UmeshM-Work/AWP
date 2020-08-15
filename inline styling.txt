@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--HTML & CSS Integration - Inline Styling-->
+
+<body style="background-image:linear-gradient(black,grey);">
+    <div style="background: blue;
+     margin-bottom: 16px; 
+     padding: 12px;
+     font-family: Arial;
+     text-align: center;
+     font-size:25px;
+     font-weight:bold;
+     ">
+        welcome
+    </div>
+    <div style="background: red; 
+    margin-bottom: 16px; 
+    padding: 12px;
+    font-family: cursive;
+    text-align:left;
+    font-size:25px;
+    font-weight:bold;
+  ">
+        manjare
+    </div>
+    <div style="background: orange; 
+    padding: 12px;
+    margin-bottom: 16px; 
+    font-family: serif;
+    text-align: right;
+    font-size:25px;
+    font-weight:bold;
+    ">
+        umesh
+    </div>
+    <div style="background: green; 
+    padding: 12px;
+    font-family: Georgia;
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+    ">
+        cdac
+</body>
+
+</html>
