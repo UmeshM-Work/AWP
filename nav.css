@@ -1,0 +1,36 @@
+        * {
+            margin: 0;
+        }
+        
+        .parent {
+            display: flex;
+            background-color: teal;
+            padding: 20px;
+        }
+        
+        .p1 {
+            display: flex;
+            flex: 2;
+        }
+        
+        .p2 {
+            display: flex;
+        }
+        
+        .c {
+            display: flex;
+            flex: 3;
+            margin-right: 10px;
+            border: whitesmoke;
+            border-style: solid;
+            padding: 5px;
+            border-radius: 10px;
+            color: black;
+            background-color: violet;
+            opacity: 0.7;
+            transition: 0.3s;
+        }
+        
+        .c:hover {
+            opacity: 1;
+        }
