@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>umesh</title>
+</head>
+
+
+<body style="background-color:cornflowerblue;">
+    <div class="nav">
+        <h1>Umesh</h1>
+        <img src="https://www.imagesource.com/search/?searchQuery=tiger&assetType=%40License+Type%3ARF%2F" alt="">
+    </div>
+
+
+
+    <h1 style="background-color:saddlebrown;" style="color: blanchedalmond;">Umesh</h1>
+
+    <center>
+        <ul>
+            <h6 style="background-color:chartreuse;">umesh manjare</h6>
+            <p style="color:blue;">umesh instagram Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit natus molestias fugit fugiat aperiam pariatur quibusdam, doloribus et eaque possimus quasi nemo obcaecati inventore, soluta optio voluptatum ipsa quisquam est.
+            </p>
+            <h7>manjare</h7>
+            <p style="<i class=" fa fa-italic " aria-hidden="true
+                ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates rem explicabo quisquam, reiciendis, ipsum deserunt blanditiis itaque sint harum assumenda laboriosam architecto ratione magnam! Incidunt commodi in atque sit!</i>"></p>
+
+        </ul>
+
+    </center>
+
+</body>
+
+</html>
+
+</html>
