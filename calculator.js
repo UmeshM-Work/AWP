@@ -1,19 +1,40 @@
 var z = 0;
 
-function cal() {
+function add() {
 
-    var x = Number(document.getElementById("input1").value);
+    let x = Number(document.querySelector("#input1").value);
+    let y = Number(document.querySelector("#input2").value);
 
-    var y = Number(document.getElementById("input2").value);
+    z = x + y;
 
-    if (document.querySelector("#plus")) {
-
-        // if (document.getElementById("plus")) {
-        z = x + y;
-        //     document.getElementById("output1").value = z;
-    }
 }
 
+function sub() {
+
+    let x = Number(document.querySelector("#input1").value);
+    let y = Number(document.querySelector("#input2").value);
+
+    z = x - y;
+
+}
+
+function multi() {
+
+    let x = Number(document.querySelector("#input1").value);
+    let y = Number(document.querySelector("#input2").value);
+
+    z = x * y;
+
+}
+
+function divi() {
+
+    let x = Number(document.querySelector("#input1").value);
+    let y = Number(document.querySelector("#input2").value);
+
+    z = x / y;
+
+}
 
 
 
