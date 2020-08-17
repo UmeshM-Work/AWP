@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food</title>
+
+    <style>
+        .ro1 {
+            margin: 20px;
+        }
+        
+        .ro2 {
+            margin: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<div class="ro1" style="border: seagreen 2px solid;border-radius: 10px;;margin-bottom: 12px;flex-direction: row; display: flex;justify-content: space-between;">
+    <div>hello</div>
+    <div>hello</div>
+
+</div>
+<div class="ro2 " style="border: green 5px dotted ;text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; "> hello frindn</div>
+
+</html>
